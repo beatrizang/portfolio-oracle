@@ -27,6 +27,9 @@ function verificarNombre(){
     }else if(superaCaracteres(nombre, caracteres)){
         document.getElementById('nombre__error').innerHTML = nombreMax;
     }
+    else{
+        document.getElementById('nombre__error').innerHTML = '';
+    }
 }
 
 //VERIFICA QUE SEA UN EMAIL Y QUE NO ESTE VACIOSINO MUESTRA UN ERROR
@@ -41,6 +44,9 @@ function verificarEmail(){
     }
     else if(!esEmail(email)){
         document.getElementById('email__error').innerHTML = errorEmail;
+    }
+    else{
+        document.getElementById('email__error').innerHTML = '';
     }
 }
 
@@ -58,6 +64,9 @@ function verificarAsunto(){
     else if(superaCaracteres(asunto, caracteres)){
         document.getElementById('asunto__error').innerHTML = asuntoMax;
     }
+    else{
+        document.getElementById('asunto__error').innerHTML = '';
+    }
 }
 
 //VERIFICA QUE EL MENSAJE NO ESTE VACIO NI SUPERO LOS CARACTERES
@@ -73,7 +82,11 @@ function verificarMensaje(){
     }
     else if (superaCaracteres(mensaje, caracteres)){
         document.getElementById('mensaje__error').innerHTML = mensajeMax;
+    } 
+    else{
+        document.getElementById('mensaje__error').innerHTML = '';
     }
+    
 }
 
 

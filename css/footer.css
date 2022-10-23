@@ -4,3 +4,10 @@
     text-align: center;
     padding: 2rem;
 }
+
+.footer__link:hover{
+    color: var(--azul-marino);
+    cursor: pointer;
+    text-decoration: underline;
+    transition: 0.3s;
+}
