@@ -3,6 +3,12 @@
     align-items: center;
 }
 
+@media screen and (max-width:768px) {
+    .header__contenido{
+        width: 100%;
+    }
+}
+
 @media screen and (max-width:375px) {
     .header__contenido{
         width: 100%;

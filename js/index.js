@@ -76,6 +76,7 @@ function verificarMensaje(){
     }
 }
 
+
 //LLAMA A TODAS LAS FUNCIONES DE VERIFICACION
 function verificar(){
     verificarNombre();

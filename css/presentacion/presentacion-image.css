@@ -1,7 +1,17 @@
 
 .presentacion__imagen{
+    border-radius: 50%;
     width: 15rem;
     height: auto;
+}
+
+@media screen and (max-width:768px) {
+    .presentacion__imagen{
+        padding: 1rem 0 1rem 0.5rem;
+        height: 8rem;
+        width: 8rem;
+        align-self: flex-start;
+    }
 }
 
 @media screen and (max-width:375px) {

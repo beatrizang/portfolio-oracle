@@ -15,3 +15,10 @@
     cursor: pointer;
     transition: 0.3s;
 }
+
+.contacto__boton:disabled{
+    background: var(--gris-muy-claro);
+    border: 1px solid var(--gris-oscuro);
+    color: var(--gris-oscuro);
+    cursor: default;
+}

@@ -18,13 +18,14 @@
         display: none;
     }
     .visible{
+        font-size: 11px;
         display: block;
     }
 }
 
 @media screen and (max-width: 375px) {
     .visible{
-        font-size: 12px;
+        font-size: 10px;
         font-weight: 400;
     }
 }
