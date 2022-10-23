@@ -1,0 +1,23 @@
+.hobbies__item{
+        align-items:flex-start;
+        background: #ffffff;
+        display: flex;
+        flex-direction: column;
+        height: 174px;
+        justify-content: flex-end;
+        margin: 1rem 0;
+        width: 176px;
+}
+@media screen and (max-width:768px) {
+    .hobbies__item{
+        width: 10rem;
+        height: 118px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .hobbies__item{
+        width: 8rem;
+        height: 118px;
+    }
+}

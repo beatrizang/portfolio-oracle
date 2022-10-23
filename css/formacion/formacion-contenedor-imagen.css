@@ -1,0 +1,16 @@
+.formacion-contenedor__imagen{
+    align-items: center;
+    background: var(--blanco);
+    display:flex ;
+    height: 286px;
+    width: 20rem;
+    justify-content:center;
+    margin: auto 0;
+}
+
+@media screen and(max-width:768px) {
+    .formacion-contenedor__imagen{
+        height: 118px;
+        width: 10rem;
+    }
+}

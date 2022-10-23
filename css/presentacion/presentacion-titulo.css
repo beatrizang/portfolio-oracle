@@ -1,0 +1,12 @@
+.presentacion__titulo{
+    color: #515151;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+
+@media screen and(max-width:375px) {
+    .presentacion__titulo{
+        font-size: 8px;
+    }
+}

@@ -1,0 +1,17 @@
+.experiencias__imagen{
+    width: 50%;
+}
+
+@media screen and (max-width:768px) {
+    .experiencias__imagen{
+        padding-bottom: 1rem;
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .experiencias__imagen{
+        padding-bottom: 1rem;
+        width: 95%;
+    }
+}

@@ -1,0 +1,9 @@
+.contacto__form{
+    padding-left: 1rem;
+}
+
+@media screen and (max-width:375px) {
+    .contacto__form{
+        padding: 0;
+    }
+}

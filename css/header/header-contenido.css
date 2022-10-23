@@ -1,0 +1,10 @@
+.header__contenido{
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width:375px) {
+    .header__contenido{
+        width: 100%;
+    }
+}

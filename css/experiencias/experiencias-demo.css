@@ -1,0 +1,14 @@
+.experiencias__demo{
+    background: var(--azul-marino);
+    border: 1px solid var(--azul-marino);
+    color: var(--gris-muy-claro);
+    padding: 1rem;
+    margin-left: 0.8rem;
+}
+
+.experiencias__demo:hover{
+    background: var(--gris-muy-claro);
+    color: var(--azul-marino);
+    cursor: pointer;
+    transition: 0.3s;
+}

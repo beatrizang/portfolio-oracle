@@ -1,0 +1,7 @@
+.redes__link{
+    padding: 0 2rem;
+}
+
+.redes__link:first-child{
+    padding-left: 0;
+}

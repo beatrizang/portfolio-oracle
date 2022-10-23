@@ -1,0 +1,10 @@
+.redes{
+    display: flex;
+}
+
+
+@media screen and (max-width:375px) {
+    .redes{
+        padding-bottom: 2rem;
+    }
+}

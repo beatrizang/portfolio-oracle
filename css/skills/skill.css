@@ -1,0 +1,24 @@
+.skill{
+    align-items:flex-start;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    height: 174px;
+    justify-content: flex-end;
+    margin: 1rem 0;
+    width: 176px;
+}
+
+@media screen and (max-width:768px) {
+    .skill{
+        width: 10rem;
+        height: 118px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .skill{
+        width: 8rem;
+        height: 118px;
+    }
+}

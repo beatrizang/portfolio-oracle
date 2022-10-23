@@ -1,0 +1,15 @@
+.contacto__container{
+    display: flex;
+}
+
+@media screen and (max-width:768px) {
+    .contacto__container{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .contacto__container{
+        flex-direction: column;
+    }
+}

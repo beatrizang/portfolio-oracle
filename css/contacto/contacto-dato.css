@@ -1,0 +1,8 @@
+.contacto__dato{
+    background: var(--blanco);
+    border-bottom: 1px solid var(--gris-claro);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    padding: 0.5rem;
+}

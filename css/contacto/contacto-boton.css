@@ -1,0 +1,17 @@
+.contacto__boton{
+    background: var(--azul-marino);
+    border: none;
+    color: var(--gris-muy-claro);
+    margin-top: 1rem;
+    text-align: center;
+    padding: 1rem;
+    width: 10rem;
+}
+
+.contacto__boton:hover{
+    background: var(--celeste);
+    border: 1px solid var(--azul-marino);
+    color: var(--azul-marino);
+    cursor: pointer;
+    transition: 0.3s;
+}

@@ -1,0 +1,30 @@
+.menu__link{
+    color: var(--gris);
+    font-weight: 700;
+    padding: 0 1rem;
+}
+
+.menu__link:hover{
+    color: var(--gris-oscuro);
+    font-weight: 800;
+
+}
+.visible{
+    color: #727272;
+}
+
+@media screen and (max-width:768px) {
+    .menu__link{
+        display: none;
+    }
+    .visible{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .visible{
+        font-size: 12px;
+        font-weight: 400;
+    }
+}

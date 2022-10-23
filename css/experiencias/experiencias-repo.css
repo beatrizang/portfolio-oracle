@@ -1,0 +1,13 @@
+.experiencias__repo{
+    background: var(--gris-muy-claro);
+    border: 1px solid var(--azul-marino);
+    color: var(--azul-marino);
+    padding: 1rem;
+}
+
+.experiencias__repo:hover{
+    background: var(--azul-marino);
+    color: var(--gris-muy-claro);
+    cursor: pointer;
+    transition: 0.3s;
+}

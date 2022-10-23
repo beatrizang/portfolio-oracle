@@ -1,0 +1,21 @@
+.contacto__imagen{
+    display: block;
+    width: 33%;
+}
+
+
+@media screen and(max-width:768px) {
+    #contacto__imagen{
+        display: none;
+        visibility: hidden;
+        width: 0%;
+    }
+}
+
+@media screen and(max-width:375px) {
+    #contacto__imagen{
+        display: none;
+        visibility: hidden;
+        width: 0%;
+    }
+}

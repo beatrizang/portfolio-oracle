@@ -1,0 +1,11 @@
+.sobre-mi__descripcion{
+    color: #8D9196;
+    padding-bottom: 2rem;
+    width: 80%;
+}
+
+@media screen and (max-width:375px) {
+    .sobre-mi__descripcion{
+        width: 100%;
+    }
+}

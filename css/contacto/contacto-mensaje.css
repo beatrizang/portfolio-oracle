@@ -1,0 +1,11 @@
+.contacto__mensaje{
+    margin-bottom: 2rem;
+    border: none;
+    border-bottom: 1px solid var(--gris-claro);
+    outline: none;
+    resize: none;
+}
+
+.contacto__mensaje::placeholder{
+    font-weight: 200;
+}

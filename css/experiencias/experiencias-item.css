@@ -1,0 +1,21 @@
+.experiencias__item{
+    align-items: center;
+    display: flex;
+    padding: 2rem 0;
+}
+
+.invertido{
+    flex-direction: row-reverse;
+}
+
+@media screen and (max-width:768px) {
+    .experiencias__item{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .experiencias__item{
+        flex-direction: column;
+    }
+}

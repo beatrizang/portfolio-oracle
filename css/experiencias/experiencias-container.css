@@ -1,0 +1,17 @@
+.experiencias__container{
+    padding: 0 1rem;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .experiencias__container{
+        align-self: flex-start;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .experiencias__container{
+        align-self: flex-start;
+    }
+}

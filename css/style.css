@@ -1,0 +1,15 @@
+:root{
+    --azul-marino:#2A7AE4;
+    --blanco: #FFFFFF;
+    --celeste:#EAF2FD;
+    --gris: #B3B3B3;
+    --gris-muy-claro: #F5F5F5;
+    --gris-claro: #9E9E9E; 
+    --gris-oscuro: #464646;
+    --rojo: #ff4d4d;
+}
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}

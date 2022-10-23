@@ -1,0 +1,5 @@
+@media screen and (max-width:375px) {
+    .presentacion__contenido{
+        padding: 0 2rem;
+    }
+}
