@@ -89,6 +89,20 @@ function verificarMensaje(){
     
 }
 
+//SI ALGUN INPUT ESTA VACIO, DESHABILITA EL BOTON ENVIAR
+function validar(){
+    let nombre = document.getElementById('contacto__nombre').value;
+    let email = document.getElementById('contacto__email').value;
+    let asunto = document.getElementById('contacto__asunto').value;
+    let mensaje = document.getElementById('contacto__mensaje').value;
+
+    if(isEmpty(nombre) || isEmpty(email) || isEmpty(asunto) || isEmpty(mensaje)){
+        document.getElementById('contacto__boton').disabled = true;
+    }
+    else{
+        document.getElementById('contacto__boton').disabled = false;
+    }
+}
 
 //LLAMA A TODAS LAS FUNCIONES DE VERIFICACION
 function verificar(){

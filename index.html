@@ -254,26 +254,26 @@
 						<form class="contacto__formulario">
 							<div class="contacto__dato">
 								<label class="contacto__etiqueta" for="">Nombre*</label>
-								<input autocomplete="off" class="contacto__input" type="text" id="contacto__nombre" >
+								<input onkeyup="validar()" autocomplete="off" class="contacto__input" type="text" id="contacto__nombre" >
 								<p id="nombre__error" class="contacto__error"></p>
 							</div>
 							
 
 							<div class="contacto__dato">
 								<label class="contacto__etiqueta" for="">Email*</label>
-								<input autocomplete="off" class="contacto__input" id="contacto__email" type="email">
+								<input onkeyup="validar()" autocomplete="off" class="contacto__input" id="contacto__email" type="email">
 								<p id="email__error" class="contacto__error"></p>
 							</div>
 
 							<div class="contacto__dato">
 								<label class="contacto__etiqueta" for="">Asunto*</label>
-								<input autocomplete="off" class="contacto__input" id="contacto__asunto"  type="text">
+								<input  onkeyup="validar()" autocomplete="off" class="contacto__input" id="contacto__asunto"  type="text">
 								<p id="asunto__error" class="contacto__error"></p>
 							</div>
 
-							<textarea autocomplete="off" class="contacto__mensaje" name="" id="contacto__mensaje" cols="30" rows="10" placeholder="Mensaje*" ></textarea>
+							<textarea onkeyup="validar()" autocomplete="off" class="contacto__mensaje" name="" id="contacto__mensaje" cols="30" rows="10" placeholder="Mensaje*" ></textarea>
 							<p id="mensaje__error" class="contacto__error"></p>
-							<input onclick="verificar()" name="btn" id="contacto__boton" class="contacto__boton"  value="Enviar mensaje" type="button">
+							<input disabled onclick="verificar()" name="btn" id="contacto__boton" class="contacto__boton"  value="Enviar mensaje" type="button">
 							
 						</form>
 					</div>
