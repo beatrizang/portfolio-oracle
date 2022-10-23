@@ -1,5 +1,7 @@
 # Portofolio Oracle ONE
 
+![](img/Oracle-ONE.webp)
+
 ### El desafío
 
 **Requisitos**
@@ -39,6 +41,12 @@ Importante: Todas las imagenes estaran disponible en el Figma para hacer descarg
 
 **Extras:**
 - La página debe contener un botón que le permita ver, en una nueva pestaña, una versión PDF de su currículum.
+
+### Screenshots
+
+![](img/screenshots/1.png)
+
+![](img/screenshots/2.png)
 
 
 ### Links
